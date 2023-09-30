@@ -554,7 +554,7 @@ header .go-back i {
 }
 
 .post-cover {
-    height: 40vh !important;
+    height: 70vh !important; /*从原本的40改为了70*/
 }
 
 .bg-cover:after {
