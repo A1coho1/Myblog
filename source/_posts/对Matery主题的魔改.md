@@ -5,6 +5,7 @@ cover: true
 toc: true
 mathjax: false
 date: 2023-10-01 03:14:20
+updated: 2023-10-2 03:19:20
 author:
 img: https://ts1.cn.mm.bing.net/th/id/R-C.15156de8ecdaca0e208f755572b5217b?rik=SCL92Je0wYHVXg&riu=http%3a%2f%2fheibanbai.com.cn%2fimg%2fhexo.png&ehk=VywdH%2f1oS1u8iXWWEm11T%2bm0ntJ9pczrqS%2bktzxU3Mo%3d&risl=&pid=ImgRaw&r=0
 coverImg:
@@ -214,5 +215,17 @@ post:
   typeSpeed: 100 # 打字速度
   backSpeed: 50 # 删除速度
 ```
+## 5.自定义鼠标样式
+在./source/css/my.css 中增加以下内容：
+```css
+*{
+    cursor: url("../medias/cursors/dd.cur"),auto!important;
+}
+a:hover{
+    cursor: url("../medias/cursors/hh.cur"),auto!important;
+}
+```
 
-## 5.将featureImages替换为图床加快访问速度（未完成）
+- 注:使用静态.cur文件
+
+## 6.将featureImages替换为图床加快访问速度（未完成）

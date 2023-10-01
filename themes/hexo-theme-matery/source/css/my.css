@@ -1,7 +1,7 @@
 /* Here is your custom css styles. */
 *{
-    cursor: url("../medias/cursors/12.ico"),auto!important;
+    cursor: url("../medias/cursors/dd.cur"),auto!important;
 }
-:active{
-    cursor: url("../medias/cursors/12.ico"),auto!important;
+a:hover{
+    cursor: url("../medias/cursors/hh.cur"),auto!important;
 }
