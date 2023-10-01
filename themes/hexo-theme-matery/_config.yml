@@ -58,9 +58,9 @@ time:
 cover:
   showPrevNext: true # 是否显示左右切换按钮. Whether to display the left and right toggle buttons.
   showIndicators: true # 是否显示指示器. # Whether to display the indicators
-  autoLoop: true # 是否自动轮播. Whether it is automatically rotated.
+  autoLoop: false # 是否自动轮播. Whether it is automatically rotated.
   duration: 120 # 切换延迟时间. Switching delay time.
-  intervalTime: 5000 # 自动切换下一张的间隔时间. Automatically switch the interval of the next one.
+  intervalTime: 10000 # 自动切换下一张的间隔时间. Automatically switch the interval of the next one.
   useConfig: false # 是否使用配置文件, 在 _data/covers.json 下配置推荐文章, false则使用主题在文章中的配置 cover coverImg
   # useConfig 使用方式: 将主题 hexo-theme-matery/source/_data/covers.json 移动到 my-blog/source/_data/下修改配置即可
   video:
@@ -619,13 +619,13 @@ ribbon:
 
 # 背景动态彩带.
 ribbon_dynamic:
-  enable: false
+  enable: true
 
 # sharejs文章分享模块.
 # 支持顺序，可选项目为twitter, facebook, google, qq, qzone, wechat, weibo, douban, linkedin.
 sharejs:
-  enable: false
-  sites: twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin
+  enable: true
+  sites: qq,wechat
 
 # addthis文章分享模块.
 addthis:
@@ -642,8 +642,13 @@ subtitle:
   typeSpeed: 100 # 打字速度
   backSpeed: 50 # 删除速度
   sub:
-    - 心有猛虎，细嗅蔷薇
-    - In me the tiger sniffs the rose
+    - 心有猛虎，细嗅蔷薇。
+    - In me the tiger sniffs the rose.
+    - 使生如夏花之绚烂，死如秋叶之静美。
+    - Let life be beautiful like summer flowers and death like autumn leaves.
+    - 世界以痛吻我，要我报之以歌。
+    - The world has kissed my soul with its pain, asking for its return in songs.
+
     # - 从来没有真正的绝境, 只有心灵的迷途
     # - Never really desperate, only the lost of the soul
 
@@ -661,7 +666,7 @@ instantpage:
 banner:
   enable: true
   # 开启随机 featureimages 图片
-  random: true
+  random: false
 
 # 中文繁简转换开关
 # 显示在底部 footer 栏
@@ -686,9 +691,9 @@ icp:
 jsDelivr:
   url: # https://cdn.jsdelivr.net/gh/skyls03/skyls03.github.io
   
-# 网站背景图
+# 全局网站背景图
 background:
-  enable: true
+  enable: false
   url:
   # url: https://pic.imgdb.cn/item/65183b72c458853aef6d25bd.jpg
 
@@ -749,3 +754,12 @@ mermaid: ## mermaid url https://github.com/knsv/mermaid
   version: "latest" # default v7.1.2
   options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
     #startOnload: true  // default true
+
+# 文章标题
+post:
+  enable: true
+  loop: false # 是否循环
+  showCursor: true # 是否显示光标
+  startDelay: 500 # 开始延迟
+  typeSpeed: 100 # 打字速度
+  backSpeed: 50 # 删除速度
