@@ -314,11 +314,11 @@ mySkills:
 # If you don't want to display this `Gallery` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的相册"图片，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myGallery:
-  enable: false
+  enable: true
   data:
-    - /medias/featureimages/0.jpg
-    - /medias/featureimages/1.jpg
-    - /medias/featureimages/2.jpg
+    - https://pic.imgdb.cn/item/65183b72c458853aef6d25bd.jpg
+    - https://pic.imgdb.cn/item/65187137c458853aef7794b6.jpg
+    - https://pic.imgdb.cn/item/651a57d9c458853aeffdbc87.jpg
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件
