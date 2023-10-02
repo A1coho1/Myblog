@@ -317,7 +317,10 @@ myGallery:
   enable: true
   data:
     - https://pic.imgdb.cn/item/65183b72c458853aef6d25bd.jpg
-    - https://pic.imgdb.cn/item/65187137c458853aef7794b6.jpg
+    - https://pic.imgdb.cn/item/651a57ecc458853aeffdc177.jpg
+    - https://pic.imgdb.cn/item/651a57d9c458853aeffdbc87.jpg
+    - https://pic.imgdb.cn/item/651a57ebc458853aeffdc13a.jpg
+    - https://pic.imgdb.cn/item/651a57d9c458853aeffdbc26.jpg
     - https://pic.imgdb.cn/item/651a57d9c458853aeffdbc87.jpg
 
 # Whether to display post-calender in the `archive` page
