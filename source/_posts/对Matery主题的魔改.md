@@ -215,8 +215,11 @@ post:
   typeSpeed: 100 # 打字速度
   backSpeed: 50 # 删除速度
 ```
+
 ## 5.自定义鼠标样式
+
 在./source/css/my.css 中增加以下内容：
+
 ```css
 *{
     cursor: url("../medias/cursors/dd.cur"),auto!important;
@@ -227,5 +230,3 @@ a:hover{
 ```
 
 - 注:使用静态.cur文件
-
-## 6.将featureImages替换为图床加快访问速度（未完成）

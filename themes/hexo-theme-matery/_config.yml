@@ -261,7 +261,7 @@ snowdown:
 profile:
   avatar: /medias/avatar.png
   career: Student
-  introduction: Coding just by interest.
+  introduction: 幸有舟楫迟，得尽所历妙。
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
@@ -531,9 +531,9 @@ libs:
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
 featureImages:
-# - https://pic.imgdb.cn/item/65183b72c458853aef6d25bd.jpg
+- https://pic.imgdb.cn/item/651a5a27c458853aeffe1039.jpg
 # - /medias/featureimages/0.jpg
-- /medias/featureimages/1.jpg
+# - /medias/featureimages/1.jpg
 # - /medias/featureimages/2.jpg
 # - /medias/featureimages/3.jpg
 # - /medias/featureimages/4.jpg
@@ -560,8 +560,16 @@ featureImages:
 #背景图片
 backgroundImages:
 - https://pic.imgdb.cn/item/65183b72c458853aef6d25bd.jpg
-- https://pic.imgdb.cn/item/651871dec458853aef77add1.jpg
 - https://pic.imgdb.cn/item/65187137c458853aef7794b6.jpg
+- https://pic.imgdb.cn/item/651a57ebc458853aeffdc14c.jpg
+- https://pic.imgdb.cn/item/651a57ecc458853aeffdc177.jpg
+- https://pic.imgdb.cn/item/651a57ebc458853aeffdc13a.jpg
+- https://pic.imgdb.cn/item/651a587ac458853aeffdd379.jpg
+- https://pic.imgdb.cn/item/651a57ebc458853aeffdc161.jpg
+- https://pic.imgdb.cn/item/651a57d9c458853aeffdbc26.jpg
+- https://pic.imgdb.cn/item/651a57d9c458853aeffdbc87.jpg
+- https://pic.imgdb.cn/item/651a57dac458853aeffdbcc5.jpg
+- https://pic.imgdb.cn/item/651a57dac458853aeffdbd1c.jpg
 
 # default configs that the default policy for every articles/posts
 # default 配置文章的默认转载规则
