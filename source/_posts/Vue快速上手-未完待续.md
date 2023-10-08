@@ -8,9 +8,8 @@ img: 'https://pic.imgdb.cn/item/65211657c458853aef4b1cdd.png'
 summary: 学习vue时的笔记
 tags: 
  - vue
- - 前端
  - web
-categories: vue
+categories: web
 abbrlink: 249
 date: 2023-10-07 16:24:57
 updated: 2023-10-07 16:24:57
@@ -19,11 +18,10 @@ coverImg:
 password:
 ---
 # 基础
+
 - 本地开发必需环境: [node.js](https://nodejs.org/en)
-
 - 学习Vue前建议先学习: `html`, `css`, `JavaScript`, Vue的本质是**渐进式
-JavaScript 框架**, 所以打好js的基础是十分重要的。
-
+  JavaScript 框架**, 所以打好js的基础是十分重要的。
 - 关于Vue的一切具体请参考:[官方文档](https://v2.cn.vuejs.org/)
 
 ## 1.起步
@@ -135,7 +133,7 @@ watch:{
 
 ```html
 <p v-bind:title="message"></p> <!-- 用响应式数据message绑定p标签的title属性 -->
-<p :title="message"></p> <!-- 语法糖 -->			
+<p :title="message"></p> <!-- 语法糖 -->	
 ```
 
 #### 1.5.4事件指令

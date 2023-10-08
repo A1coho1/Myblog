@@ -9,6 +9,7 @@ summary: 实现了增删查改以及数据统计功能
 tags:
   - django
   - sql
+  - web
 categories: web
 abbrlink: 49949
 date: 2023-10-04 15:59:58
