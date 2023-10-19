@@ -52,14 +52,16 @@ if (page.img) {
     </div>
 </div>
 
+<!--   background-image: url(<%- URL %>);  -->
 <% 
     var num = Math.floor(Math.random() * theme.backgroundImages.length)
     var URL = url_for(theme.backgroundImages[num])
 
      %>
         <style>
+            <!---->
             body{
-                background-image: url(<%- URL %>);
+                background-image: url("https://pi.xytlib.top:8000/");
                 background-repeat:no-repeat;
                 background-size:cover;
                 background-attachment:fixed;
